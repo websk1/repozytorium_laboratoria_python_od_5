@@ -70,8 +70,8 @@ def solve(n=8, debug=False):
 
 
 if __name__ == '__main__':
-    solve(n=1, debug=True)
-    solve(n=2, debug=True)
+    solve(n=1, debug=True) # pokazuje działanie flagi debug na krótkim przykładzie
+    solve(n=2)
     solve(n=3)
-    solve(n=4, debug=True)
+    solve(n=4)
     solve(n=8)
